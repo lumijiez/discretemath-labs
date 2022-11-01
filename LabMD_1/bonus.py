@@ -34,10 +34,21 @@ def getNextGen(previousgen):
             nextgen.append(getNextChild(previousgen[x - 1], previousgen[x], previousgen[x + 1]))
     return nextgen
 
-m = 1000
-pixelSize = 2
-currentGen = [0 for x in range(m-1)]
-currentGen.append(1)
+m = 100
+pixelSize = 5
+# 110 rule
+#currentGen = [0 for x in range(m-1)]
+#currentGen.append(1)
+
+# random rule
+#currentGen = [random.randint(0, 1) for x in range(m)]
+
+# 0101010101...
+#currentGen = []
+#for x in range(1, 500):
+#    for g in range(2):
+#        currentGen.append(g)
+
 width = height = m*pixelSize
 img = Image.new('RGB', (width, height), (128, 128, 128))
 draw = ImageDraw.Draw(img)
