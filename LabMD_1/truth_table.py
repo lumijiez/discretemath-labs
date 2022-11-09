@@ -1,5 +1,5 @@
 evalStr = input()
-newStr = evalStr.replace("!", " not ").replace("*", " and ").replace("+", " or ")
+newStr = evalStr.replace("!", " ~ ").replace("*", " & ").replace("+", " | ")
 variables = []
 for x in evalStr:
     if x.isalpha() and not(x in variables):
@@ -8,6 +8,7 @@ n = len(variables)
 for x in variables:
     print("|", x, end=" ")
 print("|", evalStr, "|")
+print("-" * ((len(evalStr)+4) + n*4))
 for x in range(0, 2**n):
     temp = []
     for i in range(n):
