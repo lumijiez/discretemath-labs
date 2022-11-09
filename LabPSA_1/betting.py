@@ -7,7 +7,6 @@ for _ in range(100000):
     while x == 1:
         nr_success += 1
         x = random.randint(0, 1)
-    if nr_success > 1:
         results.append(pow(2, nr_success))
 print(statistics.mean(results))
 
