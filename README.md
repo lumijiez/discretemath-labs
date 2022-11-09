@@ -6,7 +6,7 @@
   - Longest Substring Finder
   - Truth Table Solver
   - Sierpinski Triangle Drawer
-  - BONUS: Game of Life
+  - [BONUS: Game of Life](https://github.com/lemoentjiez/Labs/blob/main/LabMD_1/game_of_life.py)
   
   
 ## Laboratory nr.1 (Probability/Statistics)
