@@ -10,9 +10,9 @@
   
   
 ## Laboratory nr.1 (Probability/Statistics)
-  - Coin Game Simulation
-  - Revolver Simulation
-  - Tennis Simulation
-  - Roulette Simulation
-  - Birthday Attack Collision Finder
-  - BONUS: Area of Shape (Monte Carlo Principle)
+  - [Coin Game Simulation](https://github.com/lemoentjiez/Labs/blob/main/LabPSA_1/betting.py)
+  - [Revolver Simulation](https://github.com/lemoentjiez/Labs/blob/main/LabPSA_1/revolver.py)
+  - [Tennis Simulation](https://github.com/lemoentjiez/Labs/blob/main/LabPSA_1/tennis.py)
+  - [Roulette Simulation](https://github.com/lemoentjiez/Labs/blob/main/LabPSA_1/roulette.py)
+  - [Birthday Attack Collision Finder](https://github.com/lemoentjiez/Labs/blob/main/LabPSA_1/birthday_attack.py)
+  - [BONUS: Area of Shape (Monte Carlo Principle)](https://github.com/lemoentjiez/Labs/blob/main/LabPSA_1/bonus_psa.py)
