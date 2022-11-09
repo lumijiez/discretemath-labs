@@ -1,11 +1,11 @@
 # Laboratories for Probability/Statistics and Discrete Math
 
 ## Laboratory nr.1 (Discrete Math)
-  - Powerset Calculator
-  - XNOR Calculator
-  - Longest Substring Finder
-  - Truth Table Solver
-  - Sierpinski Triangle Drawer
+  - [Powerset Calculator](https://github.com/lemoentjiez/Labs/blob/main/LabMD_1/powerset.py)
+  - [XNOR Calculator](https://github.com/lemoentjiez/Labs/blob/main/LabMD_1/xnor.py)
+  - [Longest Substring Finder]((https://github.com/lemoentjiez/Labs/blob/main/LabMD_1/longest_substring.py))
+  - [Truth Table Solver]((https://github.com/lemoentjiez/Labs/blob/main/LabMD_1/truth_table.py))
+  - [Sierpinski Triangle Drawer](https://github.com/lemoentjiez/Labs/blob/main/LabMD_1/sierpinski.py)
   - [BONUS: Game of Life](https://github.com/lemoentjiez/Labs/blob/main/LabMD_1/game_of_life.py)
   
   
