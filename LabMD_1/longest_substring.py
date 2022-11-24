@@ -1,4 +1,4 @@
-def countTimesOfSubstringInString(substrn, strng):
+def countSubstr(substrn, strng):
     m = len(substrn)
     n = len(strng)
     number = 0
@@ -13,43 +13,51 @@ def countTimesOfSubstringInString(substrn, strng):
     return number
 
 
-test_str = "xxxx"
+working_str = "banana"
+substrings = [working_str[i: j] for i in range(len(working_str))
+              for j in range(i + 1, len(working_str) + 1)]
 
-res = [test_str[i: j] for i in range(len(test_str))
-       for j in range(i + 1, len(test_str) + 1)]
+words_repeating = set()
+words_not_repeating = set()
+nr_times_repeating = {}
+nr_times_not_repeating = {}
 
-words = set()
+for x in substrings:
+    if countSubstr(x, working_str) > 1:
+        words_repeating.add(x)
 
-for x in res:
+for x in substrings:
     chars = []
     strn = ''
     for y in x:
         if y in chars:
-            res.remove(x)
+            substrings.remove(x)
             break
         else:
             chars.append(y)
             strn += y
-        words.add(strn)
+        words_not_repeating.add(strn)
 
-nr_times = {}
-for x in words:
-    nr_times[x] = countTimesOfSubstringInString(x, test_str)
+for x in words_repeating:
+    nr_times_repeating[x] = countSubstr(x, working_str)
 
-max_length = 0
-for x in words:
-    if len(x) > max_length:
-        max_length = len(x)
+for x in words_not_repeating:
+    nr_times_not_repeating[x] = countSubstr(x, working_str)
 
-max_occurence = 0
-for x in words:
-    if nr_times[x] > max_occurence:
-        max_occurence = nr_times[x]
-print("First program output: ")
+max_length_repeating = 0
+max_length_not_repeating = 0
+
+for x in words_repeating:
+    if len(x) > max_length_repeating:
+        max_length_repeating = len(x)
+
+for x in words_not_repeating:
+    if len(x) > max_length_not_repeating:
+        max_length_not_repeating = len(x)
+
 print("Longest duplicated substrings:")
-for x in words:
-    if nr_times[x] > 1 and len(x) == max_length:
+for x in words_repeating:
+    if nr_times_repeating[x] > 1 and len(x) == max_length_repeating:
         print(x)
-print("Second program output: ")
-print("Length of longest substring:")
-print(max_length)
+print("Length of longest substring without repeating chars:")
+print(max_length_not_repeating)
