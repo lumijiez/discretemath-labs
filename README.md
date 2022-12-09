@@ -19,12 +19,12 @@
   
   
   ## Laboratory nr.2 (Discrete Math)
-  - [Random Vulnerability WIP](https://github.com/lemoentjiez/Labs/blob/main/LabPSA_2/vulnerability.py)
-  - [RSA WIP](https://github.com/lemoentjiez/Labs/blob/main/LabPSA_2/rsa.py)
-  - [Check Password WIP](https://github.com/lemoentjiez/Labs/blob/main/LabPSA_2/check.py)
-  - [Palindrome WIP](https://github.com/lemoentjiez/Labs/blob/main/LabPSA_2/palindrome.py)
-  - [Cracking the Password WIP](https://github.com/lemoentjiez/Labs/blob/main/LabPSA_2/crack.py)
-  - [BONUS: Mastermind WIP](https://github.com/lemoentjiez/Labs/blob/main/LabPSA_2/mastermind.py)
+  - [Random Vulnerability WIP](https://github.com/lemoentjiez/Labs/blob/main/LabMD_2/vulnerability.py)
+  - [RSA WIP](https://github.com/lemoentjiez/Labs/blob/main/LabMD_2/rsa.py)
+  - [Check Password WIP](https://github.com/lemoentjiez/Labs/blob/main/LabMD_2/check.py)
+  - [Palindrome WIP](https://github.com/lemoentjiez/Labs/blob/main/LabMD_2/palindrome.py)
+  - [Cracking the Password WIP](https://github.com/lemoentjiez/Labs/blob/main/LabMD_2/crack.py)
+  - [BONUS: Mastermind WIP](https://github.com/lemoentjiez/Labs/blob/main/LabMD_2/mastermind.py)
   
   
   ## Laboratory nr.2 (Probability/Statistics)
@@ -42,11 +42,11 @@
   
   
   ## Laboratory nr.3 (Discrete Math)
-  - [Courses WIP](https://github.com/lemoentjiez/Labs/blob/main/LabPSA_3/courses.py)
-  - [Cheapest Flights WIP](https://github.com/lemoentjiez/Labs/blob/main/LabPSA_3/flights.py)
-  - [Matrix WIP](https://github.com/lemoentjiez/Labs/blob/main/LabPSA_3/matrix.py)
-  - [Network](https://github.com/lemoentjiez/Labs/blob/main/LabPSA_3/network.py)
-  - [BONUS - Network WIP](https://github.com/lemoentjiez/Labs/blob/main/LabPSA_3/bonusnetwork.py)
+  - [Courses WIP](https://github.com/lemoentjiez/Labs/blob/main/LabMD_3/courses.py)
+  - [Cheapest Flights WIP](https://github.com/lemoentjiez/Labs/blob/main/LabMD_3/flights.py)
+  - [Matrix WIP](https://github.com/lemoentjiez/Labs/blob/main/LabMD_3/matrix.py)
+  - [Network](https://github.com/lemoentjiez/Labs/blob/main/LabMD_3/network.py)
+  - [BONUS - Network WIP](https://github.com/lemoentjiez/Labs/blob/main/LabMD_3/bonusnetwork.py)
   
   
   ## Laboratory nr.3 (Probability/Statistics)
