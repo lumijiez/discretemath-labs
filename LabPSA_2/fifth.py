@@ -4,8 +4,7 @@ from numpy import sqrt
 real = 0
 positive = 0
 for _ in range(10000):
-    b = random.uniform(-1, 1)
-    c = random.uniform(-1, 1)
+    c, b = random.uniform(-1, 1), random.uniform(-1, 1)
     delta = b ** 2 - 4*c
     if delta > 0:
         real += 1
@@ -15,5 +14,4 @@ for _ in range(10000):
             positive += 1
 print(real/10000)
 print(positive/10000)
-
 
