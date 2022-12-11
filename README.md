@@ -28,7 +28,7 @@
   
   
   ## Laboratory nr.2 (Probability/Statistics)
-  - [Interesting Observation WIP](https://github.com/lemoentjiez/Labs/blob/main/LabPSA_2/observation.py)
+  - [Interesting Observation](https://github.com/lemoentjiez/Labs/blob/main/LabPSA_2/observation.py)
   - [Densities](https://github.com/lemoentjiez/Labs/blob/main/LabPSA_2/second.py)
   - [Densities](https://github.com/lemoentjiez/Labs/blob/main/LabPSA_2/third.py)
   - [Densities](https://github.com/lemoentjiez/Labs/blob/main/LabPSA_2/fourth.py)
