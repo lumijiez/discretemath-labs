@@ -34,7 +34,7 @@
   - [Densities](https://github.com/lemoentjiez/Labs/blob/main/LabPSA_2/fourth.py)
   - [Densities](https://github.com/lemoentjiez/Labs/blob/main/LabPSA_2/fifth.py)
   - [Densities WIP](https://github.com/lemoentjiez/Labs/blob/main/LabPSA_2/sixth.py)
-  - [Densities WIP](https://github.com/lemoentjiez/Labs/blob/main/LabPSA_2/seventh.py)
+  - [Densities](https://github.com/lemoentjiez/Labs/blob/main/LabPSA_2/seventh.py)
   - [Densities WIP](https://github.com/lemoentjiez/Labs/blob/main/LabPSA_2/eighth.py)
   - [Random Variables WIP](https://github.com/lemoentjiez/Labs/blob/main/LabPSA_2/variables.py)
   - [Important Distributions WIP](https://github.com/lemoentjiez/Labs/blob/main/LabPSA_2/distribution.py)
