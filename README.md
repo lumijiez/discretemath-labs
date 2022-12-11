@@ -24,7 +24,7 @@
   - [Check Password](https://github.com/lemoentjiez/Labs/blob/main/LabMD_2/check.py)
   - [Palindrome WIP](https://github.com/lemoentjiez/Labs/blob/main/LabMD_2/palindrome.py)
   - [Cracking the Password WIP](https://github.com/lemoentjiez/Labs/blob/main/LabMD_2/crack.py)
-  - [BONUS: Mastermind WIP](https://github.com/lemoentjiez/Labs/blob/main/LabMD_2/mastermind.py)
+  - [BONUS: Mastermind](https://github.com/lemoentjiez/Labs/blob/main/LabMD_2/mastermind.py)
   
   
   ## Laboratory nr.2 (Probability/Statistics)
