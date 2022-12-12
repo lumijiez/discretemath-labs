@@ -1,4 +1,3 @@
-
 import random
 
 tries, wins = 1000000, 0
