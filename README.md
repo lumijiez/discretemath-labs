@@ -19,10 +19,10 @@
   
   
   ## Laboratory nr.2 (Discrete Math)
-  - [Random Vulnerability WIP](https://github.com/lemoentjiez/Labs/blob/main/LabMD_2/vulnerability.py)
+  - [Random Vulnerability](https://github.com/lemoentjiez/Labs/blob/main/LabMD_2/vulnerability.py)
   - [RSA](https://github.com/lemoentjiez/Labs/blob/main/LabMD_2/rsa.py)
   - [Check Password](https://github.com/lemoentjiez/Labs/blob/main/LabMD_2/check.py)
-  - [Palindrome WIP](https://github.com/lemoentjiez/Labs/blob/main/LabMD_2/palindrome.py)
+  - [Palindrome](https://github.com/lemoentjiez/Labs/blob/main/LabMD_2/palindrome.py)
   - [Cracking the Password WIP](https://github.com/lemoentjiez/Labs/blob/main/LabMD_2/crack.py)
   - [BONUS: Mastermind](https://github.com/lemoentjiez/Labs/blob/main/LabMD_2/mastermind.py)
   
@@ -33,7 +33,7 @@
   - [Densities](https://github.com/lemoentjiez/Labs/blob/main/LabPSA_2/third.py)
   - [Densities](https://github.com/lemoentjiez/Labs/blob/main/LabPSA_2/fourth.py)
   - [Densities](https://github.com/lemoentjiez/Labs/blob/main/LabPSA_2/fifth.py)
-  - [Densities WIP](https://github.com/lemoentjiez/Labs/blob/main/LabPSA_2/sixth.py)
+  - [Densities](https://github.com/lemoentjiez/Labs/blob/main/LabPSA_2/sixth.py)
   - [Densities](https://github.com/lemoentjiez/Labs/blob/main/LabPSA_2/seventh.py)
   - [Densities WIP](https://github.com/lemoentjiez/Labs/blob/main/LabPSA_2/eighth.py)
   - [Random Variables WIP](https://github.com/lemoentjiez/Labs/blob/main/LabPSA_2/variables.py)
