@@ -42,11 +42,11 @@
   
   
   ## Laboratory nr.3 (Discrete Math)
-  - [Courses WIP](https://github.com/lemoentjiez/Labs/blob/main/LabMD_3/courses.py)
+  - [Courses](https://github.com/lemoentjiez/Labs/blob/main/LabMD_3/courses.py)
   - [Cheapest Flights WIP](https://github.com/lemoentjiez/Labs/blob/main/LabMD_3/flights.py)
-  - [Matrix WIP](https://github.com/lemoentjiez/Labs/blob/main/LabMD_3/matrix.py)
+  - [Matrix](https://github.com/lemoentjiez/Labs/blob/main/LabMD_3/matrix.py)
   - [Network](https://github.com/lemoentjiez/Labs/blob/main/LabMD_3/network.py)
-  - [BONUS - Network WIP](https://github.com/lemoentjiez/Labs/blob/main/LabMD_3/networkbonus.py)
+  - [BONUS - Network](https://github.com/lemoentjiez/Labs/blob/main/LabMD_3/networkbonus.py)
   
   
   ## Laboratory nr.3 (Probability/Statistics)
