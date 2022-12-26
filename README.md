@@ -53,4 +53,4 @@
   - [Important Distributions](https://github.com/lemoentjiez/Labs/blob/main/LabPSA_3/distrib.py)
   - [Continuous Conditional probability](https://github.com/lemoentjiez/Labs/blob/main/LabPSA_3/continuous.py)
   - [Counting](https://github.com/lemoentjiez/Labs/blob/main/LabPSA_3/counting.py)
-  - [Networking WIP](https://github.com/lemoentjiez/Labs/blob/main/LabPSA_3/networking.py)
+  - [Networking](https://github.com/lemoentjiez/Labs/blob/main/LabPSA_3/networking.py)
