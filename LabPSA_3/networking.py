@@ -1,4 +1,3 @@
-
 import json
 import matplotlib.pyplot as plt
 import nltk
@@ -125,7 +124,15 @@ for noun in nouns_counted:
         if noun in words_per_tweet[id]:
             normLikes += likes_per_id[id]
             normRetweets += retweets_per_id[id]
-    popularity_nouns[noun] = word_count_dict[noun] * (1.4 + normRetweets) * (1.2 + normLikes)
+    popularity_nouns[noun] = word_count_dict[noun] * (1.4 * normRetweets) * (1.2 * normLikes)
+    if (noun == "right"):
+        print("KID NOUN")
+        print("KID RT")
+        print(normRetweets)
+        print("KID LIKES")
+        print(normLikes)
+        print("KID FREQ")
+        print(word_count_dict[noun])
 popularity_nouns = dict(sorted(popularity_nouns.items(), key=lambda item: item[1], reverse=True))
 
 # Outputs popularity nouns
