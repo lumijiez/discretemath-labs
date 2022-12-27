@@ -1,4 +1,3 @@
-
 import json
 
 import nltk
@@ -97,27 +96,18 @@ maxm = 0
 for i in range(startingPoint, endingPoint):
     for x in wordsForCSV[i]:
         graph_dict[x] = []
-filter_words = ["RT"]
+filter_words = ["RT", "of", "it", "not", "but", "for", "are", "in", "my", "to", "by", "doing", "so"]
 file = open("data.csv", "w", encoding="utf-8")
-file.write("NODE,")
 for i in range(startingPoint, endingPoint):
     for word in wordsForCSV[i]:
         for x in wordsForCSV[i]:
             if x is not word and x not in graph_dict[word] and x not in filter_words:
                 graph_dict[word].append(x)
 for x in graph_dict:
-    if len(graph_dict[x]) > maxm:
-        maxm = len(graph_dict[x])
-for x in range(maxm):
-    file.write("EDGE" + str(x))
-    if x != maxm - 1:
-        file.write(",")
-file.write("\n")
-for x in graph_dict:
-    file.write(x)
-    file.write(",")
     for z in range(len(graph_dict[x])):
+        file.write(x + ",")
         file.write(graph_dict[x][z])
         if z != len(graph_dict[x]) - 1:
             file.write(",")
+        file.write("\n")
     file.write("\n")
