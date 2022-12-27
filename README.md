@@ -23,7 +23,7 @@
   - [RSA](https://github.com/lemoentjiez/Labs/blob/main/LabMD_2/rsa.py)
   - [Check Password](https://github.com/lemoentjiez/Labs/blob/main/LabMD_2/check.py)
   - [Palindrome](https://github.com/lemoentjiez/Labs/blob/main/LabMD_2/palindrome.py)
-  - [Cracking the Password WIP](https://github.com/lemoentjiez/Labs/blob/main/LabMD_2/crack.py)
+  - [Cracking the Password](https://github.com/lemoentjiez/Labs/blob/main/LabMD_2/crack.py)
   - [BONUS: Mastermind](https://github.com/lemoentjiez/Labs/blob/main/LabMD_2/mastermind.py)
   
   
