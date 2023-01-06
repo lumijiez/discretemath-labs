@@ -8,12 +8,18 @@ def checkLength(passw):
 
 def checkRepeating(passw):
     steps = 0
-    letters = {x: 0 for x in passw}
-    for x in passw:
-        letters[x] += 1
-    for x in letters:
-        if letters[x] > 2:
-            steps += letters[x] - 2
+    i = 0
+    tempSteps = 1
+    while (len(passw) > 1):
+        x = passw[0]
+        if passw[1] == x:
+            tempSteps += 1
+            passw = passw[1:]
+        else:
+            if tempSteps > 2:
+                steps += tempSteps - 2
+            tempSteps = 1
+            passw = passw[1:]
     if steps == 0:
         return 0
     return steps
