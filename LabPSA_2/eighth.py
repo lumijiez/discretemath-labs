@@ -1,18 +1,9 @@
 import random
 
 
-def get_list(z):
-    rand_lst, i = [], 0
-    while len(rand_lst) < 10:
-        z = random.randint(1, z)
-        if z not in rand_lst:
-            rand_lst.append(z)
-    return rand_lst
-
-
 n, counter, tries = 10, 0, 100000
 for _ in range(tries):
-    lunch, l_p, dinner, d_p = get_list(n), [], get_list(n), []
+    lunch, l_p, dinner, d_p = random.sample(range(n), n), [], random.sample(range(n), n), []
     for x in range(n - 1):
         l_p.append({lunch[x], lunch[x + 1]})
         d_p.append({dinner[x], dinner[x + 1]})
