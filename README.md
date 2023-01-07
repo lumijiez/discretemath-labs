@@ -22,7 +22,7 @@
   - [Random Vulnerability ✔️](https://github.com/lemoentjiez/Labs/blob/main/LabMD_2/vulnerability.py)
   - [RSA ✔️](https://github.com/lemoentjiez/Labs/blob/main/LabMD_2/rsa.py)
   - [Check Password ✔️](https://github.com/lemoentjiez/Labs/blob/main/LabMD_2/check.py)
-  - [Palindrome ❌](https://github.com/lemoentjiez/Labs/blob/main/LabMD_2/palindrome.py)
+  - [Palindrome ✔️](https://github.com/lemoentjiez/Labs/blob/main/LabMD_2/palindrome.py)
   - [Cracking the Password ✔️](https://github.com/lemoentjiez/Labs/blob/main/LabMD_2/crack.py)
   - [BONUS: Mastermind ✔️](https://github.com/lemoentjiez/Labs/blob/main/LabMD_2/mastermind.py)
   
@@ -43,7 +43,7 @@
   
   ## Laboratory nr.3 (Discrete Math)
   - [Courses ✔️](https://github.com/lemoentjiez/Labs/blob/main/LabMD_3/courses.py)
-  - [Cheapest Flights ❌](https://github.com/lemoentjiez/Labs/blob/main/LabMD_3/flights.py)
+  - [Cheapest Flights ✔️](https://github.com/lemoentjiez/Labs/blob/main/LabMD_3/flights.py)
   - [Matrix ✔️](https://github.com/lemoentjiez/Labs/blob/main/LabMD_3/matrix.py)
   - [Network ✔️](https://github.com/lemoentjiez/Labs/blob/main/LabMD_3/network.py)
   - [BONUS - Network ✔️](https://github.com/lemoentjiez/Labs/blob/main/LabMD_3/networkbonus.py)
