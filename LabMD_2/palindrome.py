@@ -1,24 +1,28 @@
-def kmp_algorithm(string):
-    n = len(string)
-    lps = [None] * n
-    l, lps[0], i = 0, 0, 1    while i < n:
-        if string[i] == string[l]:
-            l += 1            lps[i] = l
-            i += 1        else:
-            if l != 0:
-                l = lps[l-1]
-            else:
-                lps[i] = 0                i += 1    return lps
+def palindrom(string):
+    l, i = len(string), 0
+    j = l - 1
+    while i <= j:
+        if string[i] != string[j]:
+            return False
+        i += 1
+        j -= 1
+    return True
 
 
-def minadded(string):
-    revstr = string[::-1]
-    big_str = string + '$' + revstr
-    lps = kmp_algorithm(big_str)
-    return len(string) - lps[-1]
+s, nr = input(), 0
+s1 = s
+while len(s) > 0:
+    if palindrom(s):
+        flag = 1
+        break
+    else:
+        nr += 1
+        s = s[:-1]
 
-
-s = input()
-nr = minadded(s)
-ans = s[-nr:] + s
-print(ans)
+if nr == 0:
+    print(s)
+else:
+    ans = s1[-nr:]
+    ans = ans[::-1]
+    ans = ans + s1
+    print(ans)
