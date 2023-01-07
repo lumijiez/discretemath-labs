@@ -1,29 +1,22 @@
 import random
 
-participants, n, days = list(), 10, 10000
+
+def get_list(z):
+    rand_lst, i = [], 0
+    while len(rand_lst) < 10:
+        z = random.randint(1, z)
+        if z not in rand_lst:
+            rand_lst.append(z)
+    return rand_lst
 
 
-def random_list():
-    l = list()
-    while len(l) < n:
-        x = random.randint(1, n)
-        if x not in l:
-            l.append(x)
-    return l
-
-
-for i in range(n):
-    participants.append(i)
-
-ans = 0
-for i in range(days):
-    lunch, dinner = random_list(), random_list()
-    for j in range(1, n + 1):
-        idx1 = lunch.index(j)
-        idx2 = dinner.index(j)
-        q = [lunch[idx1 - 1], lunch[(idx1 + 1) % n]]
-        w = [dinner[idx2 - 1], dinner[(idx2 + 1) % n]]
-        if q[0] in w or q[1] in w:
-            ans += 1
-            break
-print(1 - ans / days)
+n, counter, tries = 10, 0, 100000
+for _ in range(tries):
+    lunch, l_p, dinner, d_p = get_list(n), [], get_list(n), []
+    for x in range(n - 1):
+        l_p.append({lunch[x], lunch[x + 1]})
+        d_p.append({dinner[x], dinner[x + 1]})
+    l_p.append({lunch[0], lunch[-1]})
+    d_p.append({dinner[0], dinner[-1]})
+    counter = counter + 1 if sum(el in l_p for el in d_p) > 0 else counter
+print(1 - counter/tries)
