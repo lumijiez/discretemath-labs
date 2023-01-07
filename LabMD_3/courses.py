@@ -51,6 +51,6 @@ graph = [
 value = (ob.solve(graph))
 
 if value == len(graph):
-    print("possible")
+    print("Possible")
 else:
-    print("impossible")
+    print("Impossible")
