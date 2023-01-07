@@ -37,7 +37,7 @@ def checkPassword(psw):
     x = max(checkLength(psw), checkComposition(psw), checkRepeating(psw))
     if x:
         return x
-    return "good"
+    return "Good!"
 
 
 passw = input()
