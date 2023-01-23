@@ -28,23 +28,23 @@ Ex:
 the 352
 a 235
 at 120
- - 4.2 Nouns
+ - 4.2 
 Write a program that prints the first 10 most frequently used nouns, and the number of times it was mentioned.
- - 4.3 Proper nouns
+ - 4.3 
 Write a program that prints the first 10 most frequently used proper nouns, and the number of times it was mentioned.
- - 4.4 Frequency
+ - 4.4 
 Write a program that receives a word as an input and draws a frequency bar chart. Every bar should represent the period of 1 month.
- - 4.5 Popularity
+ - 4.5 
 In our dataset we also have the number of likes and retweets for every message. This can give us some insight about the tweet's popularity. Hence we can compute some sort of rating. The popularity of nouns is computed by the following formula frequency * (1.4 + normRetweet) * (1.2 + normLikes). The values normRetweet and normLikes are the normalized values of retweets and likes for every word. To compute the number of likes and retweets for every word you just cumulatively collect the numbers from every tweet that the word was mentioned.
 Ex: There are 2 tweets that mention the noun program. The first tweet has 32 retweets and 87 likes. The second tweet has 42 retweets and 103 likes. The number of retweets of the word program is 32 + 42 and the number of likes is 87 + 103.
 Write a program that prints the first 10 most popular nouns. The popularity is defined by the computed rating discussed above.
 Typing prediction
- - 4.6 Suggestion
+ - 4.6 
 Write a program that receives as input an uncompleted word and prints 3 word suggestions, followed by their frequency. The suggestions should be based on the initial dataset and sorted by the word frequency, computed in the first problem.
 The input can be any uncompleted word.
 Ex. Input: app, Output: application (324), apple (164), appreciate (53). Where application has the highest frequency, apple the second highest etc.
 Ex. Input: pro, Output: programming (196), product (176), program (103). Again programming has the highest frequency.
- - 4.7 Suggestion occurrences
+ - 4.7 
 Write a program that receives as input a word and prints 3 word suggestions, followed by the suggestion occurrences.
 The suggestions should be selected in the following way. You have to go through your tweets dataset and identify every occurrence of the input word. At every occurrence collect the word that follows the input word. That is the suggestion you are looking for. And also don't forget to count the number of times you get the same suggestions. Ex: input like and you find 5 occurrences of beer and 2 occurrences of love labs. Your suggestion words would be beer and labs. But beer has a priority because it occurred more times in your dataset. Your task is to select the most relevant suggestions as in the one that occurred the most.
 The input can be any completed word.
